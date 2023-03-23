@@ -1,4 +1,4 @@
-import streamlit as st
+
 import openai
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
@@ -6,7 +6,7 @@ import googleSerp as gs
 import html2text
 import requests
 import json
-
+import streamlit as st
 openai.api_key = "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"
 openai.organization = "org-G8pNT76vfOzkDgF2Ex7EcFrv"
 
